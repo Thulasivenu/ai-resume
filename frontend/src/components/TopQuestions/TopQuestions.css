@@ -1,0 +1,28 @@
+.question-card {
+  width: 400px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  /* background: #fff; */
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 0.85em;
+  background-color: #f1f3f5;
+  margin: 10px 5px 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.question-card.hover-effect {
+  border: 1px solid #889096;
+  transition: all 0.3s ease;
+  background-color: #eceef0;
+}
+.first-questions-sec,
+.remaining-questions-sec {
+  /* border: 1px solid red; */
+  display: flex;
+}

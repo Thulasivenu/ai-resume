@@ -1,0 +1,71 @@
+.sidebar-container,
+.moveside-bar {
+  position: relative;
+  /* background-color: white; */
+  /* background-color: #d4d3d3; */
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: width 0.3s ease;
+}
+
+.sidebar-container {
+  width: 250px;
+}
+
+.moveside-bar {
+  width: 70px;
+}
+
+.nav-item-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.past-questions {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.nav-text {
+  text-decoration: none;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.nav-text img {
+  width: 32px;
+  height: 32px;
+}
+
+.nav-text span {
+  white-space: nowrap;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-width 0.3s ease;
+  opacity: 1;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hide-nav-names {
+  opacity: 0;
+  max-width: 0;
+  pointer-events: none;
+}
+
+.open-close-side-bar button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 25px;
+  right: -10px;
+  cursor: pointer;
+}

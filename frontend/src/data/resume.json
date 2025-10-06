@@ -1,0 +1,25 @@
+{
+  "name": "Thulasi Venu",
+  "role": "Frontend Developer",
+  "experience": [
+    {
+      "company": "XYZ Pvt Ltd",
+      "position": "Frontend Developer",
+      "duration": "Jan 2022 - Present",
+      "details": "Built interactive React apps and optimized performance."
+    },
+    {
+      "company": "ABC Tech",
+      "position": "Junior Frontend Developer",
+      "duration": "Jun 2020 - Dec 2021",
+      "details": "Developed web components using React and Redux."
+    }
+  ],
+  "skills": ["React", "JavaScript", "TypeScript", "CSS3", "HTML5", "Docker"],
+  "projects": [
+    {
+      "name": "AI Resume Bot",
+      "description": "A chatbot that answers questions about my resume."
+    }
+  ]
+}
